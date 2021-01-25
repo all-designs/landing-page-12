@@ -1,0 +1,318 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+	/*======================
+    Index Page Css
+========================*/
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	/*======================
+    Index Page Css
+========================*/
+	/* pricing part */
+	.pricing .single_pric .pric h4 span {
+		left: 13px;
+	}
+
+	/* get started part */
+	.get_started .get_btn {
+		left: 5%;
+
+	}
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/*======================
+    Index Page Css
+========================*/
+	/* banner part */
+	.banner .banner_heading {
+		margin-top: 215px;
+	}
+
+	.banner .banner_search_box {
+		margin-top: 165px;
+	}
+
+	/* service part */
+	.single_service {
+		margin-bottom: 60px;
+	}
+
+	/* speakers part */
+	.speakers .single_profil {
+		margin: 0 15px;
+		margin-bottom: 100px;
+	}
+
+	/* event_list part */
+	.event_list .single_event {
+		margin-bottom: 100px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	/* get_started */
+	.get_started .get_btn {
+		position: static;
+		width: 98%;
+		margin-top: 50px;
+	}
+	.schedul_download {
+		margin-bottom: 20px;
+	}
+}
+
+/* small mobile :320px. */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/*======================
+    Index Page Css
+========================*/
+	/* banner part */
+	.banner .banner_heading {
+		margin-top: 137px;
+	}
+
+	.banner .banner_search_box {
+		margin-top: 130px;
+	}
+
+	/* service part */
+	.single_service {
+		margin-bottom: 60px;
+	}
+
+	/* speakers part */
+	.speakers .single_profil {
+		margin: 0 15px;
+		margin-bottom: 100px;
+	}
+
+	/* event_list part */
+	.event_list .single_event {
+		margin-bottom: 100px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	/* get_started */
+	.get_started .get_btn {
+		position: static;
+		width: 98%;
+		margin-top: 50px;
+	}
+
+	/* pricing */
+	.pricing .single_pric .pric h4 span {
+		left: 12px;
+	}
+
+
+	/* Schedul part start */
+	.schedule-box .tab-buttons,
+	.style-two .schedule-box .tab-buttons {
+		float: none;
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.schedule-box .tab-buttons .tab-btn,
+	.style-two .schedule-box .tab-buttons .tab-btn {
+		display: block;
+		width: 100%;
+		float: none;
+		border: 1px solid #d0d0d0 !important;
+		margin-bottom: 5px;
+	}
+
+	.schedule-box .tab-buttons .tab-btn .curve {
+		display: none;
+	}
+
+	.style-two .schedule-box .tabs-box {
+		width: 100%;
+	}
+
+	.schedule-box .hour-box .hour {
+		position: relative;
+		margin-bottom: 15px;
+	}
+
+	.schedule-box .hour-box {
+		padding-left: 40px;
+	}
+
+	.schedule-box .hour-box .circle {
+		left: 0px;
+	}
+
+	.schedule-box .hour-box::before {
+		left: 11px;
+	}
+
+	.schedule-box .hour-box .content-box {
+		padding-right: 0px;
+	}
+
+	.schedule-box .hour-box .toggle-btn h3 {
+		font-size: 15px;
+	}
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 575.98px) {
+
+	/*======================
+    Index Page Css
+========================*/
+	.banner .banner_heading {
+		margin-top: 110px;
+	}
+
+	.banner .banner_heading h1 {
+		font-size: 44px;
+	}
+
+	.banner .banner_search_box {
+		margin-top: 75px;
+	}
+
+	/*  */
+	.single_service {
+		margin-bottom: 100px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	/* Schedul part  */
+	.schedule-box .hour-box .professional .info {
+		padding-left: 0px;
+	}
+
+	.schedule-box .hour-box .professional .info .image {
+		position: relative;
+		margin-bottom: 10px;
+	}
+
+	.schedule-box .hour-box .professional .text-right {
+		text-align: left !important;
+		padding-left: 0px;
+	}
+
+	/* speakers */
+	.speakers .single_profil {
+		margin-bottom: 100px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	/* event_list */
+	.event_list .single_event {
+		margin-bottom: 100px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	/* pricing */
+	.pricing .single_pric {
+		padding: 30px 10px 56px 10px;
+		margin-bottom: 70px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	
+	/* Schedul part start */
+	.schedul_download {
+		margin-top: 0px; 
+		text-align: center;
+		margin-bottom: 17px;
+	}
+	.schedule-box .tab-buttons,
+	.style-two .schedule-box .tab-buttons {
+		float: none;
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.schedule-box .tab-buttons .tab-btn,
+	.style-two .schedule-box .tab-buttons .tab-btn {
+		display: block;
+		width: 100%;
+		float: none;
+		border: 1px solid #d0d0d0 !important;
+		margin-bottom: 5px;
+	}
+
+	.schedule-box .tab-buttons .tab-btn .curve {
+		display: none;
+	}
+
+	.style-two .schedule-box .tabs-box {
+		width: 100%;
+	}
+
+	.schedule-box .hour-box .hour {
+		position: relative;
+		margin-bottom: 15px;
+	}
+
+	.schedule-box .hour-box {
+		padding-left: 40px;
+	}
+
+	.schedule-box .hour-box .circle {
+		left: 0px;
+	}
+
+	.schedule-box .hour-box::before {
+		left: 11px;
+	}
+
+	.schedule-box .hour-box .content-box {
+		padding-right: 0px;
+	}
+
+	.schedule-box .hour-box .toggle-btn h3 {
+		font-size: 15px;
+	}
+
+	/* get_started */
+	.get_started .get_btn {
+		position: static;
+		width: 98%;
+		margin-top: 50px;
+	}
+	/*footer  */
+	.f_logo {
+		text-align: center;
+	}
+	.footer-lower .footer-nav ul {
+		text-align: center;
+	}
+	.footer-lower .footer-nav li {
+		position: relative;
+		display: inline-block;
+		margin: 0px 0px 0px 1px;
+		font-size: 12px;
+	}
+	.copyright_text {
+		font-size: 13px;
+	}
+
+	.section_title h1 {
+		font-size: 25px;
+	}
+	p {
+		font-size: 13px;
+		line-height: 20px;
+	}
+}

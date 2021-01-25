@@ -1,0 +1,1009 @@
+/*+-----------------------------------------------------------+
+  |                                                           |
+  |    Template Name: Event Needz landing page                |
+  |    Author: melon mia                                      |
+  |    Author Email: amdadulhaquemelon63566@gmai.com          |
+  |    Version: 1.00                                          |
+  |                                                           |
+  +-----------------------------------------------------------+*/
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. Index Or landing Page 
+        |----> Header css
+        |----> Sticky header css
+        |----> Banner Css
+        |----> Service Css
+        |----> Product Css
+        |----> Event Css
+        |----> Offer Css
+        |----> Updates Css
+        |----> Footer Css
+        |----> Copyright Css
+*/
+/*===========================
+    1. Theme default css 
+===========================*/
+/* Local Fonts Css */
+@font-face {
+    font-family: 'Segoe Script';
+    src: url('../fonts/locul\ font/.eot?');
+    src: url('../fonts/locul\ font/.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/locul\ font/.woff2') format('woff2'),
+        url('../fonts/locul\ font/.woff') format('woff'),
+        url('../fonts/locul\ font/.ttf') format('truetype'),
+        url('../fonts/locul\ font/.svg#SegoeScript') format('svg');
+
+    font-family: 'Droid Sans';
+    src: url("../fonts/locul\ font/DroidSans");
+    src: url('../fonts/locul\ font/DroidSans') format('woff2'),
+        url('../fonts/locul\ font/DroidSans') format('woff'),
+        url('../fonts/locul\ font/DroidSans') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* start common css */
+.img {
+    max-width: 100%;
+    vertical-align: middle;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.bg_cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+}
+
+/* End common css */
+body {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.4px;
+    color: #7f7f7f;
+}
+
+p {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #7f7f7f;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+/* all section title css */
+.section_title {}
+
+.section_title h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Droid Sans', sans-serif;
+    color: #000;
+}
+
+.section_title p {}
+
+/*===========================
+    1. Theme default css End
+===========================*/
+/*===========================
+    Index Page Css Start 
+===========================*/
+/*========= Header part css start======== */
+header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.671);
+    z-index: 99999999;
+}
+
+header .navbar {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+header .navbar .navbar-brand {}
+
+header .navbar .navbar-brand img {}
+
+header .navbar .navbar-toggler {}
+
+header .navbar .navbar-collapse {}
+
+header .navbar .navbar-collapse form {}
+
+header .navbar .navbar-collapse form button {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    font-weight: 300;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+header .navbar .navbar-collapse form .advertis {
+    background: #33839C;
+    padding: 20px;
+    font-size: 18px;
+    margin-right: 27px;
+}
+
+header .navbar .navbar-collapse form .login {
+    background: #A15E8D;
+    padding: 20px;
+    font-weight: 300;
+}
+
+/* Banner past css  */
+.banner {}
+
+.banner .overly {
+    background: #00000041;
+
+}
+
+.banner .banner_heading {
+    margin-top: 337px;
+    text-align: center;
+    font-family: 'Segoe Script';
+    color: #490403;
+    font-weight: 700;
+}
+
+.banner .banner_heading h1 {
+    display: grid;
+    font-size: 68px;
+}
+
+.banner .banner_heading h1 span {}
+
+.banner .banner_search_box {
+    display: grid;
+    background: #00000054;
+    padding: 40px;
+    margin-top: 185px;
+    margin-bottom: 100px;
+}
+
+.banner .banner_search_box select {
+    margin-bottom: 15px;
+    padding: 14px 10px;
+    color: #949597;
+    font-size: 17px;
+}
+
+.banner .banner_search_box select option {
+    color: #000000;
+}
+
+.banner .banner_search_box input {
+    margin-bottom: 15px;
+    padding: 14px 10px;
+    color: #000000;
+    font-size: 17px;
+}
+
+.banner .banner_search_box .submit {
+    margin-bottom: 0;
+    background: #E46766;
+    border: 0;
+    padding: 21px;
+    color: #fff;
+}
+
+/* SERVICES PART CSS */
+.serviceS {}
+
+.single_service {}
+
+.single_service .service_text {}
+
+.single_service .service_text h3 {}
+
+.single_service .service_text p {
+    line-height: 34px;
+}
+
+
+
+/* speakers part css */
+.speakers {}
+
+.speakers .single_profil {
+    border: 1px solid #d0d0d0;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.speakers .single_profil.active,
+.speakers .single_profil:hover {
+    border: 1px solid #f3f2f2;
+    transform: scale(1.1, 1.1);
+    box-shadow: 0px 0px 20px 0px rgba(84,86,90,0.17);
+}
+.speakers .single_profil .profile_image {
+    position: relative;
+}
+
+.speakers .single_profil .profile_image .social_link {
+	position: absolute;
+	left: 50%;
+	top: 4px;
+	display: flex;
+	transform: translateX(-50%);
+}
+
+.speakers .single_profil .profile_image .social_link .icon_box {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #E46766;
+    color: #f1f1f1;
+    margin: 0 3px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+.speakers .single_profil.active .profile_image .social_link .icon_box,
+.speakers .single_profil:hover .profile_image .social_link .icon_box{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+.speakers .single_profil .profile_image .social_link .icon_box i {}
+
+.speakers .single_profil .content {
+    padding: 30px 10px;
+}
+
+.speakers .single_profil .content .name {
+    margin-bottom: 20px;
+    text-align: left;
+    color: #000;
+}
+
+.speakers .single_profil .content .name h4 {}
+
+.speakers .single_profil .content .name span {
+    color: #E46766;
+}
+
+.speakers .single_profil .content p {}
+
+
+.speakers .single_profil .content .profile_link {
+    text-align: end;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.speakers .single_profil .content .profile_link a {
+    color: #E46766;
+}
+
+
+
+
+/* Schedul part css */
+
+.schedul_download {
+    margin-top: 8px;
+    text-align: end;
+}
+
+.schedule-section {
+    position: relative;
+    padding: 60px 0px 80px;
+    background: #ffffff;
+}
+
+.download-btn {
+    position: relative;
+    display: inline-block;
+    line-height: 24px;
+    padding: 10px 25px 8px;
+    margin-bottom: 20px;
+    border: 2px solid #a0a0a0;
+    color: #a6a6a6;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.download-btn .fa {
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.download-btn:hover {
+    color: #ffffff;
+    background: #E46766;
+    border-color: #E46766;
+}
+
+.schedule-box {
+    position: relative;
+    border: 1px solid #dadada;
+}
+
+.schedule-box .tab-buttons {
+    position: relative;
+    width: 100%;
+    display: table;
+}
+
+.style-two .schedule-box .tab-buttons {
+    display: block;
+    float: left;
+    width: 18%;
+}
+
+.schedule-box .tab-buttons .tab-btn {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    background: #ffffff;
+    color: #E46766;
+    line-height: 1.4em;
+    padding: 20px 10px;
+    border-bottom: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+}
+
+.style-two .schedule-box .tab-buttons .tab-btn {
+    display: block;
+}
+
+.schedule-box .tab-buttons .tab-btn:last-child {
+    border-right: none;
+}
+
+.style-two .schedule-box .tab-buttons .tab-btn:last-child {
+    border-bottom: none;
+    border-right: 1px solid #dadada;
+}
+
+.schedule-box .tab-buttons .tab-btn.active,
+.schedule-box .tab-buttons .tab-btn:hover {
+    border-color: #E46766;
+    background: #E46766;
+    color: #ffffff;
+}
+
+.style-two .schedule-box .tab-buttons .tab-btn.active,
+.style-two .schedule-box .tab-buttons .tab-btn:hover {
+    border-bottom-color: #ffffff;
+}
+
+.schedule-box .tab-buttons .tab-btn .day {
+    display: block;
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-bottom: 7px;
+}
+
+.schedule-box .tab-buttons .tab-btn .date {
+    display: block;
+    font-size: 15px;
+}
+
+.schedule-box .tab-buttons .tab-btn .curve {
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    background: none;
+    text-align: center;
+    opacity: 0;
+}
+
+.style-two .schedule-box .tab-buttons .tab-btn .curve {
+    width: 20px;
+    height: 100%;
+    bottom: auto;
+    left: auto;
+    right: 0px;
+    top: 0px;
+}
+
+.schedule-box .tab-buttons .tab-btn.active .curve,
+.schedule-box .tab-buttons .tab-btn:hover .curve {
+    bottom: -19px;
+    opacity: 1;
+    transition: all 300ms ease 200ms;
+    -webkit-transition: all 300ms ease 200ms;
+    -ms-transition: all 300ms ease 200ms;
+    -o-transition: all 300ms ease 200ms;
+    -moz-transition: all 300ms ease 200ms;
+}
+
+.style-two .schedule-box .tab-buttons .tab-btn.active .curve,
+.style-two .schedule-box .tab-buttons .tab-btn:hover .curve {
+    bottom: auto;
+    right: -17px;
+}
+
+.schedule-box .tab-buttons .tab-btn .curve:after {
+    content: '';
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border: 7px solid transparent;
+    border-top-color: #E46766;
+}
+
+.style-two .schedule-box .tab-buttons .tab-btn .curve:after {
+    content: '';
+    position: absolute;
+    right: 3px;
+    top: 42px;
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border: 7px solid transparent;
+    border-left-color: #E46766;
+}
+
+.schedule-box .tabs-box {
+    position: relative;
+}
+
+.style-two .schedule-box .tabs-box {
+    float: left;
+    width: 82%;
+}
+
+.schedule-box .tab {
+    position: relative;
+    padding: 40px 20px;
+    display: none;
+}
+
+.style-two .schedule-box .tab {
+    padding-bottom: 10px;
+}
+
+.schedule-box .tab.current {
+    display: block;
+}
+
+.schedule-box .hour-box {
+    position: relative;
+    padding-left: 150px;
+    font-size: 16px;
+    color: #7f7f7f;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.schedule-box .hour-box:before {
+    content: '';
+    position: absolute;
+    left: 111px;
+    top: 24px;
+    width: 2px;
+    height: 100%;
+    background: #d2d2d2;
+}
+
+.schedule-box .hour-box.active-box:before {
+    background: #E46766;
+}
+
+.schedule-box .hour-box:last-child:before {
+    display: none;
+}
+
+.schedule-box .hour-box .hour {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100px;
+    line-height: 2em;
+    color: #7f7f7f;
+}
+
+.schedule-box .hour-box .circle {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #d2d2d2;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.schedule-box .hour-box.active-box .circle {
+    border-color: #E46766;
+}
+
+.schedule-box .hour-box .toggle-btn {
+    position: relative;
+    top: -4px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.schedule-box .hour-box .toggle-btn h3 {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    padding-right: 30px;
+    color: #292929;
+}
+
+.schedule-box .hour-box .content-box {
+    position: relative;
+    padding-right: 20px;
+    display: none;
+}
+
+.schedule-box .hour-box .content-box.collapsed {
+    display: block;
+}
+
+.schedule-box .hour-box .content-box .professional {
+    position: relative;
+}
+
+.schedule-box .hour-box .professional .info {
+    position: relative;
+    padding-left: 110px;
+    padding-top: 10px;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+
+.schedule-box .hour-box .professional .info .image {
+    position: absolute;
+    left: 15px;
+    top: 0px;
+    width: 72px;
+    height: 72px;
+    border: 1px solid #d0d0d0;
+    overflow: hidden;
+}
+
+.schedule-box .hour-box .professional .info .image img {
+    display: block;
+    width: 100%;
+}
+
+.schedule-box .hour-box .professional .info .prof-title {
+    font-size: 18px;
+    margin-bottom: 7px;
+    color: #292929;
+    font-weight: 500;
+}
+
+.schedule-box .hour-box .professional .info .prof-occup {
+    font-size: 15px;
+    color: #E46766;
+}
+
+.schedule-box .hour-box .theme-btn {
+    background: #E46766;
+    margin: 15px 5px 5px;
+}
+
+.theme-btn.dull,
+.schedule-box .hour-box .theme-btn.dull {
+    background: #d2d2d2;
+}
+
+.schedule-box .hour-box .theme-btn:before {
+    background: #292929;
+}
+
+.btn-style-one {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background: #E46766;
+    color: #ffffff;
+    line-height: 24px;
+    padding: 8px 22px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Event part css */
+.event_list {
+    background: #E46766;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.event_list .single_event {
+    background: #fff;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.event_list .single_event.active,
+.event_list .single_event:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.single_event .content {
+    padding: 14px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.single_event .content .content_head {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.single_event .content .content_head h4 {
+    position: relative;
+    font-size: 20px;
+}
+
+.single_event .content .content_head h4::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #E46766;
+    top: 121%;
+}
+
+.single_event .content .content_head button {
+    position: absolute;
+    right: 0;
+    background: #000;
+    border: 0;
+    color: #fff;
+    width: 50px;
+    height: 45px;
+    top: 0;
+    text-align: center;
+}
+
+.single_event .content p {
+    margin-bottom: 40px;
+}
+
+.single_event .content span {}
+
+.single_event .image {
+    position: relative;
+}
+
+
+.single_event .image .overlay {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.226);
+    top: 0;
+    left: 0;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.event_list .single_event .overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.event_list .single_event:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.single_event .image .overlay a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background: #E46766;
+    font-size: 17px;
+    z-index: 9999999;
+    width: 152px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* Get started part css */
+.get_started {
+    background-attachment: fixed;
+}
+
+.get_started .section_title h1 {
+    color: #fff;
+}
+
+.get_started .section_title p {
+    color: #dfcdcd;
+}
+
+.get_started .get_btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #E46766;
+    width: 134px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+}
+
+.get_started .get_btn a {
+    color: #fff;
+}
+
+/* Pric part css start */
+.pricing {}
+
+.pricing .single_pric {
+    position: relative;
+    padding: 60px 40px 60px 27px;
+    border: 1px solid rgb(122, 122, 122);
+}
+
+.pricing .single_pric .overlay {
+    background: #E46766;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.pricing .single_pric.active .overlay,
+.pricing .single_pric:hover .overlay {
+    height: 100%;
+}
+
+.pricing .single_pric .play_btn {
+    position: absolute;
+    right: 0;
+    width: 43px;
+    height: 45px;
+    background: #E46766;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    bottom: 0;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.pricing .single_pric.active .play_btn,
+.pricing .single_pric:hover .play_btn {
+    background: #000000;
+}
+
+.pricing .single_pric .pric {
+    text-align: center;
+}
+
+.pricing .single_pric .pric h4 {
+    font-size: 84px;
+    color: #000;
+    position: relative;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.pricing .single_pric.active h4,
+.pricing .single_pric:hover h4 {
+    color: #fff;
+}
+
+.pricing .single_pric .pric h4 span {
+    font-size: 51px;
+    position: absolute;
+    left: 35px;
+    top: 9px;
+}
+
+.pricing .single_pric p {
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.pricing .single_pric.active p,
+.pricing .single_pric:hover p {
+    color: #fff;
+}
+
+.pricing .single_pric .pric_details {}
+
+.pricing .single_pric .pric_details h4 {
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.pricing .single_pric.active .pric_details h4,
+.pricing .single_pric:hover .pric_details h4 {
+    color: #fff;
+}
+
+.pricing .single_pric .pric_details ul {
+    margin-top: 15px;
+}
+
+.pricing .single_pric .pric_details ul li {
+    padding-bottom: 27px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.pricing .single_pric.active li,
+.pricing .single_pric:hover li {
+    color: #fff;
+}
+
+.pricing .single_pric .pric_details ul li i {
+    color: #E46766;
+    padding-right: 5px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.pricing .single_pric.active ul li i,
+.pricing .single_pric:hover ul li i {
+    color: #fff;
+}
+
+/* footer part css */
+.footer-lower .footer-logo img {
+    display: inline-block;
+    max-width: 100%;
+    padding-top: 15px;
+}
+
+.footer-lower .footer-nav {
+    padding: 40px 15px 10px;
+    text-align: right;
+}
+
+.footer-lower .footer-nav li {
+    position: relative;
+    display: inline-block;
+    margin: 0px 0px 0px 20px;
+    font-size: 15px;
+}
+
+.footer-lower .footer-nav li a {
+    display: block;
+    line-height: 1.4em;
+    color: #cfcccc;
+    transition: all 300ms ease-in;
+    -webkit-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+}
+
+.footer-lower .footer-nav li:hover a,
+.footer-lower .footer-nav li.current a,
+.footer-lower .footer-nav li.current-menu-item a {
+    color: #fc5a1b;
+}
+
+.footer-bottom {
+    position: relative;
+    padding: 35px 0px 40px;
+    color: #f1f1f1;
+    background: #161616;
+}
+
+.footer-lower {
+    background: #161616;
+}
